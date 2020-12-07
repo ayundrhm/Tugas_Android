@@ -1,0 +1,291 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body
+{
+    background-color: #1a1a1a;
+}
+
+.badan-utama
+{
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #eeeedd;
+    padding: 17px;
+    overflow: hidden;
+    font-family: Montserrat;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+header
+{
+    background-color: #202013;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ccccb3;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-color: #000000;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.navigasi li 
+{
+    float: left;
+}
+
+.navigasi li a 
+{
+    font-color: #faf0af;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover 
+{
+    background-color:red;
+    transition-duration: 2s;
+}
+
+.banner
+{
+    margin-bottom: 15px;
+}
+
+.banner img
+{
+    background-position: left center;
+    display: block;
+    width: 1100px;
+    height: 450px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.kotak
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.kotak h3
+{
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2)
+}
+
+.kotak img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.kotak p
+{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.menu-tengah
+{
+    width: 787px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-tengah h3
+{
+    background: none;
+    color: #1a1a1a;
+    margin-bottom: 0;
+}
+
+
+.tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.tombol
+{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.tombol-lengkap
+{
+    background-color: #1a1a1a;
+    box-shadow: 2.5px 2.5px 2.5px rgba(0,0,0,0.8)
+}
+
+.menu-kanan
+{
+    width: 300px;
+    float: left;
+    font-size: 15px;
+}
+
+.menu-kanan img{
+    height: 350px;
+}
+
+.menu-kanan, .menu-tengah
+{
+    margin-bottom: 15px;
+}
+
+footer
+{
+    clear: both;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.menu-artikel ul
+{
+    list-style-type: none;
+}
+
+.menu-artikel ul li a
+{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+
+.menu-artikel ul li a:hover
+{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+
+
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+    }
+
+    .menu-kiri
+    {
+        width: 25%;
+    }
+
+    .menu-tengah
+    {
+        width: 68%;
+        float: right;
+    }
+
+    .menu-kanan
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+
+    .menu-kiri, .menu-kanan, .menu-tengah
+    {
+        float: none;
+        width: 100%;
+    }
+
+    .navigasi li
+    {
+        float: none;
+    }
+}
+
+.kotak2
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.kotak2 h3
+{
+    color: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+
+.kotak2 img
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kotak2 p
+{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.kotak2 tanggal-posting
+{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}

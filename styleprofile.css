@@ -1,0 +1,96 @@
+body
+{
+    font-family: Montserrat;
+    background-color: #1a1a1a;
+}
+
+.badan-utama
+{
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: #eeeedd;
+    padding: 17px;
+    overflow: hidden;
+    font-family: Montserrat;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+header
+{
+    background-color: #202013;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+.navigasi ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ccccb3;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-color: #000000;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.navigasi li 
+{
+    float: left;
+}
+
+.navigasi li a 
+{
+    font-color: #faf0af;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navigasi li a:hover 
+{
+    background-color:red;
+    transition-duration: 2s;
+}
+
+footer
+{
+    clear: both;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+.profile img {
+    width: 200px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+
+}
+
+.profile{
+    text-align: center;
+    align-items: center;
+}
+
+.sosmed img {
+    width: 20px;
+    height: 20px;
+}
+
+.sosmed {
+    text-align: center;
+    align-items: center;
+}
